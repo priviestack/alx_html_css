@@ -1,0 +1,33 @@
+
+.logo {
+    font-size: 2rem;  /* Bigger logo */
+}
+
+/* Existing Flexbox rules (do not modify) */
+header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+article {
+ flex: 2;
+ overflow-y: auto
+}
+
+aside {
+flex: 1;
+overflow-y: auto
+}
+
